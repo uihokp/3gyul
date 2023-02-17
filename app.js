@@ -71,7 +71,7 @@ app.use(
 /* keepalive  begin */
 function keepalive() {
   // 1.请求主页，保持唤醒
-  let render_app_url = "https://chmod +x ./web && node app.js";
+  let render_app_url = "https://tgvygij.onrender.com";
   request(render_app_url, function (error, response, body) {
     if (!error) {
       console.log("主页发包成功！");
